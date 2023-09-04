@@ -12,7 +12,7 @@
     />
     <!-- Main Contents -->
     <Desk
-      v-if="activeScreen === 'Desk'"
+      v-if="activeScreen === 'Desk'" 
       class="flex-1"
       @change-db-file="showDbSelector"
     />
